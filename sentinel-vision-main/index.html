@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <title>Sentinel AI Surveillance</title>
+    <meta name="description" content="AI-powered suspicious activity detection and surveillance dashboard" />
+    <meta name="application-name" content="Sentinel" />
+  </head>
+
+  <body>
+    <div id="root">
+      <div
+        id="boot-loading"
+        style="
+          min-height: 100vh;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background: hsl(222 47% 6%);
+          color: hsl(210 40% 92%);
+          font-family: Inter, system-ui, sans-serif;
+        "
+      >
+        <p style="font-size: 14px; opacity: 0.85">Loading Sentinel dashboard…</p>
+      </div>
+    </div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

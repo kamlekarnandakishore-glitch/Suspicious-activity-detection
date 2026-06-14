@@ -1,0 +1,24 @@
+# Python
+venv/
+__pycache__/
+*.py[cod]
+.env
+
+# Node
+node_modules/
+dist/
+
+# Runtime / local
+backend/alerts/*.jpg
+backend/alerts/*.png
+backend/uploads/*
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large ML Models (use Git LFS or download separately)
+*.pt
+*.h5
+*.onnx

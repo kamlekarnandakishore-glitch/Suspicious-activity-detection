@@ -1,0 +1,11 @@
+flask
+flask-cors
+python-dotenv
+PyJWT
+opencv-python
+numpy
+tensorflow
+ultralytics
+supabase
+twilio
+
